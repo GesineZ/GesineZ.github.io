@@ -17,7 +17,6 @@
 /* body section */
 body {
     display: block;
-    padding: 5px;
     font-family: 'Raleway';
     color: hsl(183, 92%, 85%);
 }
@@ -29,13 +28,14 @@ body {
     height: 900px;
 }
 
-#seaside .content {
+.content {
     padding: 15px;
 }
 
 /* header section */
 header {
     background-color: hsla(182, 96%, 27%, 0.5);
+    display: block;
     padding: 10px;
     text-align: center;
 }
@@ -49,6 +49,11 @@ header img {
 h1 {
     color: hsl(240, 64%, 27%);
     margin: 10px;
+}
+
+nav ul {
+    text-align: left;
+    padding-left: 10px;
 }
 
 /* footer section */
